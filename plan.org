@@ -1,0 +1,27 @@
+#+title: Plan
+
+
+* create simple play framework project
+#+begin_src scala
+sbt new playframework/play-scala-seed.g8
+#+end_src
+
+* create simple http4s project
+
+#+begin_src scala
+sbt new http4s/http4s.g8
+#+end_src
+
+* create simple play framework project with circe
+#+begin_src scala
+sbt new playframework/play-scala-seed.g8
+#+end_src
+* create simple akka-http project
+
+
+
+* Test Joke server
+
+#+begin_src bash
+http --json --body https://icanhazdadjoke.com/
+#+end_src
